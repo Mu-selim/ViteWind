@@ -1,6 +1,6 @@
 {
   "name": "create-vitewind",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "type": "module",
   "license": "MIT",
   "author": "Muhammad Selim",
@@ -16,8 +16,7 @@
     "dist"
   ],
   "scripts": {
-    "format": "prettier --write .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -29,6 +28,10 @@
   "homepage": "https://github.com/Mu-selim/vitewind#readme",
   "keywords": [
     "react",
+    "vue",
+    "svelte",
+    "javascript",
+    "typescript",
     "tailwind",
     "vite",
     "prettier",
