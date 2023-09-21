@@ -9,7 +9,7 @@ document.querySelector("#app").innerHTML = `
   >
     <div class="flex items-center gap-12 select-none">
       <a
-        href="https://github.com/Mu-selim/ViteWind"
+        href="https://vitewind.pages.dev"
         target="_blank"
         rel="noreferrer"
         class="transition-all duration-200 hover:drop-shadow-[0_0_40px_rgba(92,131,116,0.6)]"

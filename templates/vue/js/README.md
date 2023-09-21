@@ -1,7 +1,24 @@
-# Vue 3 + Vite
+# Getting Started with Create ViteWind
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project was bootstrapped with [ViteWind](https://vitewind.pages.dev).
 
-## Recommended IDE Setup
+## Available Scripts
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+In the project directory, you can run:
+
+### `npm run dev`
+
+Runs the app in the development mode.\
+Open [http://localhost:5173](http://localhost:5173), if available, to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm run preview`
+
+Builds the app for production and serve it locally.
+
+### `npm run build`
+
+Builds the app for production to the `dist` folder.\
+It correctly bundles Vite in production mode and optimizes the build for the best performance.
