@@ -1,22 +1,23 @@
 {
   "name": "create-vitewind",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "type": "module",
   "license": "MIT",
   "author": "Muhammad Selim",
   "description": "A CLI tool to generate a starter project with Tailwind CSS, Vite, prettier and eslint",
-  "main": "index.js",
+  "main": "dist/index.js",
   "bin": {
-    "vitewind": "index.js",
-    "cva": "index.js"
+    "vitewind": "dist/index.js"
   },
   "files": [
-    "index.js",
+    "dist/index.js",
     "templates/*",
     "dist"
   ],
   "scripts": {
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "dev": "node dist/index.js",
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -38,10 +39,17 @@
     "eslint"
   ],
   "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/preset-env": "^7.23.6",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.43.0",
     "eslint-config-prettier": "^8.8.0",
     "prettier": "^2.8.8",
+    "rollup": "^4.9.1",
     "vite": "^4.3.9"
   },
   "dependencies": {
