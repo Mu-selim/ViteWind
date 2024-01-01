@@ -1,6 +1,6 @@
 {
   "name": "create-vitewind",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "type": "module",
   "license": "MIT",
   "author": "Muhammad Selim",
@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "format": "prettier --write .",
-    "dev": "node dist/index.js",
+    "dev": "rollup -c -w",
     "build": "rollup -c"
   },
   "repository": {
